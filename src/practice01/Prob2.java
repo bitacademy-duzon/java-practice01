@@ -5,7 +5,7 @@ public class Prob2 {
 		
 		for( int i = 1; i <= 9; i++ ) {
 		
-			for( int j = 1; j < i + 10; j++ ) {
+			for( int j = i; j < i + 10; j++ ) {
 				System.out.print( j + " " );
 			}
 			
